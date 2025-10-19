@@ -1,26 +1,26 @@
 @font-face {
   font-family: poppins;
-  src: url(./assets/fonts/Poppins/Poppins-Black.ttf) format(truetype);
-  font-weight: bold;
+  src: url(./assets/fonts/Poppins/Poppins-Bold.ttf) format(truetype);
 }
 
-* {
-  font-family: poppins;
+@font-face {
+  font-family: vazirmatn;
+  src: url(./assets/fonts/vazirmatn/Vazirmatn-RD-Black.ttf) format(truetype);
 }
 
 .nav-item {
   margin-left: 30px;
   margin-right: 30px;
   font-family: poppins;
-  font-size: 22px;
+  font-size: 15px;
   font-style: bold;
-  font-weight: 400;
+  font-weight: 200;
   line-height: 150%;
   letter-spacing: 0%;
   color: #827a7a;
 }
 
-.nav-item:focus {
+.nav-item:hover {
   background: -webkit-linear-gradient(#6720c2, #1e004400);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -31,4 +31,112 @@
   background-color: #6720c2;
   border-radius: 25px;
   color: white;
+  border: none;
 }
+
+.btn:hover {
+  background-color: #390979;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: vazirmatn;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+p {
+  font-family: Poppins;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.btn2 {
+  background-color: #6720c2;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn2:hover {
+  background-color: #390979;
+  cursor: pointer;
+}
+
+.btn3 {
+  background-color: #6720c2;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.btn3:hover {
+  background-color: #390979;
+  cursor: pointer;
+}
+
+.button-section {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.img-thumbnail {
+  border: none;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+h3 {
+  font-family: vazirmatn;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #06052e;
+}
+
+.card-body {
+  width: auto;
+  height: 250px;
+}
+
+.card > img {
+  width: 73px;
+  height: 73px;
+}
+
+h5 {
+  text-align: left;
+}
+
+.card-text
