@@ -185,3 +185,32 @@ h4 {
 .js-swipper-slider h4 {
   color: aliceblue;
 }
+
+.col > h4 {
+  text-align: left;
+}
+
+.col > div > p {
+  text-align: left;
+}
+
+.card-body > img {
+  width: 83px;
+  height: 83px;
+}
+
+.card-body > h5 {
+  text-align: left;
+}
+
+.card-body > h6 {
+  text-align: left;
+}
+
+.card-body > p {
+  font-size: small;
+}
+
+.form-control {
+  border-radius: 30px;
+}
