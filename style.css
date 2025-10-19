@@ -154,3 +154,34 @@ h5 {
   width: auto;
   height: auto;
 }
+
+h4 {
+  font-family: Vazirmatn;
+  margin-top: 60px;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 60px;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
+
+.btn4 {
+  background-color: #6720c2;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.js-swipper-slider {
+  background-color: #181b3e;
+  width: 100%;
+}
+
+.js-swipper-slider h4 {
+  color: aliceblue;
+}
